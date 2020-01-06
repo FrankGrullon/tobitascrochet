@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.tobitafooter {
+  display: flex;
+  justify-content: center;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  background-color: var(--lightPink);
+  font-size: 0.7rem;
+}
