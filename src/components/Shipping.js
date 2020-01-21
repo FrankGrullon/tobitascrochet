@@ -49,13 +49,7 @@ export default class Shipping extends Component {
                     <b><u>Any excessive shipping amount will be refunded</u></b>. Please be assured that Tobita will use the cheapest method possible.
                     <br></br>
                     <br></br>
-                    <p>
-                        Refund Policy: ALL SALES ARE FINAL.
-                        If for any reason you are not completely satisfied with your product, please send an email to Tobita.
-                        All returns must be approved and shipped to Tobita's Crochet Items within 10 calendar days.
-                        Shipping charges are non-refundable and 20% restocking fee applies.
-                    </p>
-                    If you have any questions or concerns regarding any of these policies, please send Tobita an email. Thank You.
+                    If you have any questions or concerns regarding any of these policies, please send Tobita an <a href = "./Contact" target="_top">email.</a> Thank You.
                     <br></br>
                     </td>
                     </tr>

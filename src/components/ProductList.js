@@ -26,7 +26,16 @@ export default class ProductList extends Component {
             <React.Fragment>
                 <div className= "py-5">
                     <div className= "container">
-                        <Title name="Our" title="products" />
+                        <Title name="Crochet" title="Products" />
+                        <br></br>
+                        <div className="row">
+                            <p>
+                            Refund Policy: ALL SALES ARE FINAL.
+                            If for any reason you are not completely satisfied with your product, please send an email to Tobita.
+                            All returns must be approved and shipped to Tobita's Crochet Items within 10 calendar days.
+                            Shipping charges are non-refundable and 20% restocking fee applies.
+                            </p>
+                        </div>
                         <div className="row">
                             <div className="forms">
                                 <select onChange={e => this.setState({type: e.target.value})} className="form-control">

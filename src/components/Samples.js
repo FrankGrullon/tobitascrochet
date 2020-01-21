@@ -3,23 +3,27 @@ import Title from './Title';
 import Carousel from 'react-bootstrap/Carousel';
 
 let carouselStyle = {
-    width: "640px",
-    height: "400px"
+    width: "50%",
+    height: "50%"
 };
+
 
 export default class Samples extends Component {
     render() {
         return (
             <div className="py-5">
                 <Title name="Various" title="Crochet Samples" />
-                <p className="text-center py-3">
-                Here are some sample crochet items that I have made over the years.  The patterns for Looney Tunes (copyrighted by Leisure Arts & Warner Bros.), Mickey and Minnie Mouse (copyrighted by Leisure Arts and Disney), Pooh and Friends (copyrighted by Leisure Arts and Disney) were purchased locally.  Tobita designed the other items such as the 
-                gift baskets.  The gift baskets contained a crochet theme, for example, bathroom set or baby nursery set.  These were given as donations to raise funds at a children's elementary school.
-                </p><br></br><br></br>
+                <div className="row ml-5 mr-5">
+                    <p className="text-center py-3">
+                    Here are some sample crochet items that I have made over the years.  The patterns for Looney Tunes (copyrighted by Leisure Arts & Warner Bros.), Mickey and Minnie Mouse (copyrighted by Leisure Arts and Disney), Pooh and Friends (copyrighted by Leisure Arts and Disney) were purchased locally.  Tobita designed the other items such as the 
+                    gift baskets.  The gift baskets contained a crochet theme, for example, bathroom set or baby nursery set.  These were given as donations to raise funds at a children's elementary school.
+                    </p>
+                </div>
+                <br></br><br></br>
                 <Carousel  className="d-block m-auto" style={carouselStyle} indicators={false}>
                     <Carousel.Item>
                         <img
-                        className="d-block w-100"
+                        className="d-block w-100 img-fluid"
                         src="img/manger.jpg"
                         alt="Manger"
                         />

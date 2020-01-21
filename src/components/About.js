@@ -6,7 +6,7 @@ export default class About extends Component {
         return (
             <div className="py-5">
                 <Title name="About" title="Tobita"/><br></br>
-                <p className="mx-auto pl-3 pr-3">
+                <p className="mx-auto pl-5 pr-5">
                 This page will tell you a little about 
                 Tobita.  Tobita enjoys crocheting for 
                 others to enjoy.  There is not a moment that you will not see her without 
@@ -30,7 +30,7 @@ export default class About extends Component {
                 <br></br>
                 You will be getting a hand crocheted item, not machine made, when you order from Tobita's 
                 Crochet Items. If you have any questions please do not hesitate to send 
-                Tobita an email. She will be more than happy to answer any questions you 
+                Tobita an <a href = "./Contact" target="_top">email.</a> She will be more than happy to answer any questions you 
                 may have.
                 <br></br>
                 <br></br>

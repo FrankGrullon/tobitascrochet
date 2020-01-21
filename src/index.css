@@ -15,8 +15,12 @@ code {
 .tobitafooter {
   display: flex;
   justify-content: center;
-  padding-top: 0.7rem;
-  padding-bottom: 0.7rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
   background-color: var(--lightPink);
-  font-size: 0.7rem;
+  font-size: 0.8rem;
+}
+
+.biggeremail {
+  font-size: 1.5em;
 }

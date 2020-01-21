@@ -1670,7 +1670,7 @@ export const storeProducts = [
         id: 3,
         title: "Zebra Afghan",
         img: "img/zebraafghan.jpg",
-        price: 160,
+        price: 200,
         info:"Measures approximately 46 x 61 inches.",
         credits: "Pattern Source: Annie's Crochet Newsletter Nov-Dec 1990",
         color: false,
@@ -1683,7 +1683,7 @@ export const storeProducts = [
         id: 4,
         title: "Kaleidoscope Eyes Blanket",
         img: "img/kaleidoscopeeyesblanket.jpg",
-        price: 100,
+        price: 130,
         info:"Measures approximately 39 x 51 inches.",
         credits: "Designed by FeltedButton.com",
         color: false,
@@ -1850,58 +1850,6 @@ export const storeProducts = [
       },
       {
         id: 17,
-        title: "Popcorn Diamond Square - Twin",
-        img: "img/bed.jpg",
-        price: 175,
-        info:"This type of afghan can be made custom size. The sample in the picture was made as a bedcover. The measurement for a regular size afghan is approximately 55 x 84 inches.",
-        credits: "",
-        color: true,
-        inCart: false,
-        count: 0,
-        total: 0,
-        type: "Afghans"
-      },
-      {
-        id: 18,
-        title: "Popcorn Diamond Square - Double",
-        img: "img/bed.jpg",
-        price: 200,
-        info:"This type of afghan can be made custom size. The sample in the picture was made as a bedcover. The measurement for a regular size afghan is approximately 55 x 84 inches.",
-        credits: "",
-        color: true,
-        inCart: false,
-        count: 0,
-        total: 0,
-        type: "Afghans"
-      },
-      {
-        id: 19,
-        title: "Popcorn Diamond Square - Queen",
-        img: "img/bed.jpg",
-        price: 225,
-        info:"This type of afghan can be made custom size. The sample in the picture was made as a bedcover. The measurement for a regular size afghan is approximately 55 x 84 inches.",
-        credits: "",
-        color: true,
-        inCart: false,
-        count: 0,
-        total: 0,
-        type: "Afghans"
-      },
-      {
-        id: 20,
-        title: "Popcorn Diamond Square - King",
-        img: "img/bed.jpg",
-        price: 250,
-        info:"This type of afghan can be made custom size. The sample in the picture was made as a bedcover. The measurement for a regular size afghan is approximately 55 x 84 inches.",
-        credits: "",
-        color: true,
-        inCart: false,
-        count: 0,
-        total: 0,
-        type: "Afghans"
-      },
-      {
-        id: 21,
         title: "Circle of Squares Lapghan",
         img: "img/circlesquareafghan.jpg",
         price: 95,
@@ -1914,7 +1862,7 @@ export const storeProducts = [
         type: "Afghans"
       },
       {
-        id: 22,
+        id: 18,
         title: "Pink Cluster Afghan",
         img: "img/pinkafghan1.jpg",
         price: 125,
@@ -1927,7 +1875,7 @@ export const storeProducts = [
         type: "Afghans"
       },
       {
-        id: 23,
+        id: 19,
         title: "Simplistic Afghan",
         img: "img/yellowpinkafghan.jpg",
         price: 110,
@@ -1940,7 +1888,7 @@ export const storeProducts = [
         type: "Afghans"
       },
       {
-        id: 24,
+        id: 20,
         title: "Scrap Afghan",
         img: "img/scrapafghan.jpg",
         price: 100,
@@ -1953,11 +1901,24 @@ export const storeProducts = [
         type: "Afghans"
       },
       {
-        id: 25,
-        title: "Flower Square Bedcover - Twin",
+        id: 21,
+        title: "Popcorn Diamond Square - Bedcover",
+        img: "img/bed.jpg",
+        price: 200,
+        info:"This type of bedcover can be made custom size. The sample in the picture was made as a bedcover. $25-$75 additional charge for larger bed sizes. Email for quote",
+        credits: "",
+        color: true,
+        inCart: false,
+        count: 0,
+        total: 0,
+        type: "Bedcovers"
+      },
+      {
+        id: 22,
+        title: "Flower Square Bedcover",
         img: "img/bedcover.jpg",
         price: 250,
-        info:"Crocheted with 100% mercerized cotton thread.",
+        info:"Crocheted with 100% mercerized cotton thread. $50-$100 additional for larger bed size. Email for quote.",
         credits: "",
         color: true,
         inCart: false,
@@ -1966,46 +1927,7 @@ export const storeProducts = [
         type: "Bedcovers"
     },
     {
-        id: 26,
-        title: "Flower Square Bedcover - Double",
-        img: "img/bedcover.jpg",
-        price: 350,
-        info:"Crocheted with 100% mercerized cotton thread.",
-        credits: "",
-        color: true,
-        inCart: false,
-        count: 0,
-        total: 0,
-        type: "Bedcovers"
-    },
-    {
-        id: 27,
-        title: "Flower Square Bedcover - Queen",
-        img: "img/bedcover.jpg",
-        price: 450,
-        info:"Crocheted with 100% mercerized cotton thread.",
-        credits: "",
-        color: true,
-        inCart: false,
-        count: 0,
-        total: 0,
-        type: "Bedcovers"
-    },
-    {
-        id: 28,
-        title: "Flower Square Bedcover - King",
-        img: "img/bedcover.jpg",
-        price: 550,
-        info:"Crocheted with 100% mercerized cotton thread.",
-        credits: "",
-        color: true,
-        inCart: false,
-        count: 0,
-        total: 0,
-        type: "Bedcovers"
-    },
-    {
-        id: 29,
+        id: 23,
         title: "Multi Pastel Color Baby Afghan - LG",
         img: "img/babyafghan.jpg",
         price: 65,
@@ -2018,7 +1940,7 @@ export const storeProducts = [
         type: "Baby Afghans"
     },
     {
-        id: 30,
+        id: 24,
         title: "Multi Pastel Color Baby Afghan - SM",
         img: "img/babyafghan.jpg",
         price: 60,
@@ -2031,7 +1953,7 @@ export const storeProducts = [
         type: "Baby Afghans"
     },
     {
-        id: 31,
+        id: 25,
         title: "Feathery Lace Baby Afghan",
         img: "img/featherylacebabyghan.jpg",
         price: 60,
@@ -2044,7 +1966,7 @@ export const storeProducts = [
         type: "Baby Afghans"
     },
     {
-        id: 32,
+        id: 26,
         title: "Football and Baby Name Baby Afghan",
         img: "img/namefootball.jpg",
         price: 70,
@@ -2057,7 +1979,7 @@ export const storeProducts = [
         type: "Baby Afghans"
     },
     {
-        id: 33,
+        id: 27,
         title: "Small Squares Baby Afghan",
         img: "img/bsqafghan.jpg",
         price: 60,
@@ -2070,7 +1992,7 @@ export const storeProducts = [
         type: "Baby Afghans"
     },
     {
-        id: 34,
+        id: 28,
         title: "Pink & White Baby Afghan",
         img: "img/pinkbafghan.jpg",
         price: 60,
@@ -2083,8 +2005,8 @@ export const storeProducts = [
         type: "Baby Afghans"
     },
     {
-        id: 35,
-        title: "Small Squares Baby Afghan - With Booties",
+        id: 29,
+        title: "Pink & White Baby Afghan - With Booties",
         img: "img/pinkbafghan.jpg",
         price: 65,
         info:"Measures approximately 36 x 48 inches. Washable and dryable. Includes pair of baby booties in matching color.",
@@ -2096,7 +2018,7 @@ export const storeProducts = [
         type: "Baby Afghans"
     },
     {
-        id: 36,
+        id: 30,
         title: "Blue & White Baby Afghan",
         img: "img/blanket.jpg",
         price: 60,
@@ -2109,7 +2031,7 @@ export const storeProducts = [
         type: "Baby Afghans"
     },
     {
-        id: 37,
+        id: 31,
         title: "Blue & White Baby Afghan - With Booties",
         img: "img/blanket.jpg",
         price: 65,
@@ -2122,10 +2044,10 @@ export const storeProducts = [
         type: "Baby Afghans"
     },
     {
-        id: 38,
+        id: 32,
         title: "Crocheted Star Baby Quilt",
         img: "img/quilt.jpg",
-        price: 85,
+        price: 90,
         info:"Baby afghan is crocheted and sewn like a real quilt! Measurements are approximately 36 x 48 inches. Washable and Dryable.",
         credits: "",
         color: false,
@@ -2135,7 +2057,7 @@ export const storeProducts = [
         type: "Baby Afghans"
     },
     {
-        id: 39,
+        id: 33,
         title: "Rainbow Baby Afghan",
         img: "img/rainbow.jpg",
         price: 85,
@@ -2148,7 +2070,7 @@ export const storeProducts = [
         type: "Baby Afghans"
     },
     {
-        id: 40,
+        id: 34,
         title: "Granny Square Style Baby Afghan",
         img: "img/bluegrannybabyghan.jpg",
         price: 70,
@@ -2161,7 +2083,7 @@ export const storeProducts = [
         type: "Baby Afghans"
     },
     {
-        id: 41,
+        id: 35,
         title: "Baby Afghan",
         img: "img/blnktbr.jpg",
         price: 60,
@@ -2174,7 +2096,7 @@ export const storeProducts = [
         type: "Baby Afghans"
     },
     {
-        id: 42,
+        id: 36,
         title: "Baby Afghan - with Bear",
         img: "img/blnktbr.jpg",
         price: 70,
@@ -2187,7 +2109,7 @@ export const storeProducts = [
         type: "Baby Afghans"
     },
     {
-        id: 43,
+        id: 37,
         title: "Baby Boy Outfit",
         img: "img/babyboyoutfit.jpg",
         price: 75,
@@ -2200,7 +2122,7 @@ export const storeProducts = [
         type: "Baby Clothes"
     },
     {
-        id: 44,
+        id: 38,
         title: "Open Crescent Baby Dress",
         img: "img/threadbabydress.jpg",
         price: 75,
@@ -2213,7 +2135,7 @@ export const storeProducts = [
         type: "Baby Clothes"
     },
     {
-        id: 45,
+        id: 39,
         title: "Pineapple Dress and Beret",
         img: "img/pineappledress.jpg",
         price: 95,
@@ -2226,7 +2148,7 @@ export const storeProducts = [
         type: "Baby Clothes"
     },
     {
-        id: 46,
+        id: 40,
         title: "Baby Tank Top and Undies",
         img: "img/babytankundies.jpg",
         price: 65,
@@ -2239,7 +2161,7 @@ export const storeProducts = [
         type: "Baby Clothes"
     },
     {
-        id: 47,
+        id: 41,
         title: "Tiny Square Yoke Dress and Booties",
         img: "img/b-dress.jpg",
         price: 70,
@@ -2252,7 +2174,7 @@ export const storeProducts = [
         type: "Baby Clothes"
     },
     {
-        id: 48,
+        id: 42,
         title: "Filet Baby Dress and Booties",
         img: "img/filetdress.jpg",
         price: 65,
@@ -2265,7 +2187,7 @@ export const storeProducts = [
         type: "Baby Clothes"
     },
     {
-        id: 49,
+        id: 43,
         title: "Baby Layette Set",
         img: "img/babyset.jpg",
         price: 85,
@@ -2278,7 +2200,7 @@ export const storeProducts = [
         type: "Baby Clothes"
     },
     {
-        id: 50,
+        id: 44,
         title: "Two Color Dress and Booties",
         img: "img/ls-dress.jpg",
         price: 85,
@@ -2291,7 +2213,7 @@ export const storeProducts = [
         type: "Baby Clothes"
     },
     {
-        id: 51,
+        id: 45,
         title: "Pants & Sweater Combo",
         img: "img/pants_sweater.jpg",
         price: 65,
@@ -2304,7 +2226,7 @@ export const storeProducts = [
         type: "Baby Clothes"
     },
     {
-        id: 52,
+        id: 46,
         title: "Formal Baby Dress and Booties",
         img: "img/bwdress.jpg",
         price: 70,
@@ -2317,7 +2239,7 @@ export const storeProducts = [
         type: "Baby Clothes"
     },
     {
-        id: 53,
+        id: 47,
         title: "Heart Embedded Baby Booties",
         img: "img/heartbabyshoes.jpg",
         price: 25,
@@ -2330,7 +2252,7 @@ export const storeProducts = [
         type: "Baby Booties"
     },
     {
-        id: 54,
+        id: 48,
         title: "Girl Skate Booties",
         img: "img/girlskates.jpg",
         price: 35,
@@ -2343,7 +2265,7 @@ export const storeProducts = [
         type: "Baby Booties"
     },
     {
-        id: 55,
+        id: 49,
         title: "Boy Skate Booties",
         img: "img/boyskates.gif",
         price: 35,
@@ -2356,7 +2278,7 @@ export const storeProducts = [
         type: "Baby Booties"
     },
     {
-        id: 56,
+        id: 50,
         title: "Baby Booties",
         img: "img/bshoes.jpg",
         price: 20,
@@ -2369,7 +2291,7 @@ export const storeProducts = [
         type: "Baby Booties"
     },
     {
-        id: 57,
+        id: 51,
         title: "Tiny Square Yoke Baby Booties",
         img: "img/bbyshoe3.jpg",
         price: 25,
@@ -2382,7 +2304,7 @@ export const storeProducts = [
         type: "Baby Booties"
     },
     {
-        id: 58,
+        id: 52,
         title: "Bridal Set",
         img: "img/bridalset.jpg",
         price: 95,
@@ -2395,7 +2317,7 @@ export const storeProducts = [
         type: "Bridal"
     },
     {
-        id: 59,
+        id: 53,
         title: "Bridal Garter",
         img: "img/bridalgarter.jpg",
         price: 25,
@@ -2408,7 +2330,7 @@ export const storeProducts = [
         type: "Bridal"
     },
     {
-        id: 60,
+        id: 54,
         title: "Bridal Ring Pillow",
         img: "img/bridalringpillow.jpg",
         price: 25,
@@ -2421,7 +2343,7 @@ export const storeProducts = [
         type: "Bridal"
     },
     {
-        id: 61,
+        id: 55,
         title: "Bridal Choker",
         img: "img/bridalchoker.jpg",
         price: 20,
@@ -2434,7 +2356,7 @@ export const storeProducts = [
         type: "Bridal"
     },
     {
-        id: 62,
+        id: 56,
         title: "Bridal Purse",
         img: "img/bridalpurse.jpg",
         price: 30,
@@ -2447,7 +2369,7 @@ export const storeProducts = [
         type: "Bridal"
     },
     {
-        id: 63,
+        id: 57,
         title: "Bridal Horseshoe",
         img: "img/bridalhorseshoe.jpg",
         price: 25,
@@ -2460,7 +2382,7 @@ export const storeProducts = [
         type: "Bridal"
     },
     {
-        id: 64,
+        id: 58,
         title: "Christmas Stocking",
         img: "img/bootstocking.jpg",
         price: 15,
@@ -2473,7 +2395,7 @@ export const storeProducts = [
         type: "Christmas"
     },
     {
-        id: 65,
+        id: 59,
         title: "Crochet Christmas Creche",
         img: "img/crochetcreche.jpg",
         price: 95,
@@ -2486,7 +2408,7 @@ export const storeProducts = [
         type: "Christmas"
     },
     {
-        id: 66,
+        id: 60,
         title: "Christmas Tree Skirt",
         img: "img/christmastreeskirt.jpg",
         price: 65,
@@ -2499,7 +2421,7 @@ export const storeProducts = [
         type: "Christmas"
     },
     {
-        id: 67,
+        id: 61,
         title: "Christmas Wreath",
         img: "img/christmaswreath.jpg",
         price: 85,
@@ -2512,7 +2434,7 @@ export const storeProducts = [
         type: "Christmas"
     },
     {
-        id: 68,
+        id: 62,
         title: "Snowman",
         img: "img/snowman.jpg",
         price: 5,
@@ -2525,7 +2447,7 @@ export const storeProducts = [
         type: "Christmas"
     },
     {
-        id: 69,
+        id: 63,
         title: "Angel in Gold Dress",
         img: "img/gold-angel.jpg",
         price: 35,
@@ -2538,7 +2460,7 @@ export const storeProducts = [
         type: "Christmas"
     },
     {
-        id: 70,
+        id: 64,
         title: "White Mini-Angel Tree Ornament",
         img: "img/miniangels.jpg",
         price: 1,
@@ -2551,7 +2473,7 @@ export const storeProducts = [
         type: "Christmas"
     },
     {
-        id: 71,
+        id: 65,
         title: "Candy Cane Tree Ornament",
         img: "img/candycane.jpg",
         price: .75,
@@ -2564,7 +2486,7 @@ export const storeProducts = [
         type: "Christmas"
     },
     {
-        id: 72,
+        id: 66,
         title: "Christmas Tree",
         img: "img/g-tree.jpg",
         price: 15,
@@ -2577,7 +2499,7 @@ export const storeProducts = [
         type: "Christmas"
     },
     {
-        id: 73,
+        id: 67,
         title: "Angel",
         img: "img/angel2.jpg",
         price: 25,
@@ -2590,7 +2512,7 @@ export const storeProducts = [
         type: "Christmas"
     },
     {
-        id: 74,
+        id: 68,
         title: "Mini Christmas Booties",
         img: "img/booties.jpg",
         price: 3,
@@ -2603,7 +2525,7 @@ export const storeProducts = [
         type: "Christmas"
     },
     {
-        id: 75,
+        id: 69,
         title: "Mini Christmas Baskets",
         img: "img/w-basket.jpg",
         price: 3,
@@ -2616,7 +2538,7 @@ export const storeProducts = [
         type: "Christmas"
     },
     {
-        id: 76,
+        id: 70,
         title: "Christmas Jingle Bells",
         img: "img/christmas-bells.jpg",
         price: 3,
@@ -2629,7 +2551,7 @@ export const storeProducts = [
         type: "Christmas"
     },
     {
-        id: 77,
+        id: 71,
         title: "Wine Christmas Covering",
         img: "img/christmaswinebottlecovers.jpg",
         price: 15,
@@ -2642,7 +2564,7 @@ export const storeProducts = [
         type: "Christmas"
     },
     {
-        id: 78,
+        id: 72,
         title: "Ruffled Doily",
         img: "img/ruffleddoily.jpg",
         price: 50,
@@ -2655,7 +2577,7 @@ export const storeProducts = [
         type: "Doilies"
     },
     {
-        id: 79,
+        id: 73,
         title: "Rose Oval Doily",
         img: "img/roseoval.jpg",
         price: 55,
@@ -2668,7 +2590,7 @@ export const storeProducts = [
         type: "Doilies"
     },
     {
-        id: 80,
+        id: 74,
         title: "Pineapple Doily",
         img: "img/lgpineapple.jpg",
         price: 45,
@@ -2681,7 +2603,7 @@ export const storeProducts = [
         type: "Doilies"
     },
     {
-        id: 81,
+        id: 75,
         title: "Tiny Rectangular Doily",
         img: "img/tinyrectdoily.jpg",
         price: 5,
@@ -2694,7 +2616,7 @@ export const storeProducts = [
         type: "Doilies"
     },
     {
-        id: 82,
+        id: 76,
         title: "Blue & Yellow Pansy Doily",
         img: "img/blueyellowpansy.jpg",
         price: 30,
@@ -2707,7 +2629,7 @@ export const storeProducts = [
         type: "Doilies"
     },
     {
-        id: 83,
+        id: 77,
         title: "White Doily",
         img: "img/doily1.jpg",
         price: 25,
@@ -2720,7 +2642,7 @@ export const storeProducts = [
         type: "Doilies"
     },
     {
-        id: 84,
+        id: 78,
         title: "Victorian Rose Doily",
         img: "img/doily10.jpg",
         price: 30,
@@ -2733,7 +2655,7 @@ export const storeProducts = [
         type: "Doilies"
     },
     {
-        id: 85,
+        id: 79,
         title: "Lavender Pansy Doily",
         img: "img/purplepansy.jpg",
         price: 30,
@@ -2746,7 +2668,7 @@ export const storeProducts = [
         type: "Doilies"
     },
     {
-        id: 86,
+        id: 80,
         title: "Small Doily",
         img: "img/doily3.jpg",
         price: 15,
@@ -2759,7 +2681,7 @@ export const storeProducts = [
         type: "Doilies"
     },
     {
-        id: 87,
+        id: 81,
         title: "Lavender Doily",
         img: "img/doily2.jpg",
         price: 28,
@@ -2772,7 +2694,7 @@ export const storeProducts = [
         type: "Doilies"
     },
     {
-        id: 88,
+        id: 82,
         title: "Rose Doily",
         img: "img/rosedoily.jpg",
         price: 35,
@@ -2785,7 +2707,7 @@ export const storeProducts = [
         type: "Doilies"
     },
     {
-        id: 89,
+        id: 83,
         title: "Hexagonal Nylon Doily",
         img: "img/nylondoily.jpg",
         price: 30,
@@ -2798,7 +2720,7 @@ export const storeProducts = [
         type: "Doilies"
     },
     {
-        id: 90,
+        id: 84,
         title: "Les Fleur Doily",
         img: "img/lfdoily.jpg",
         price: 40,
@@ -2811,7 +2733,7 @@ export const storeProducts = [
         type: "Doilies"
     },
     {
-        id: 91,
+        id: 85,
         title: "Butterfly Placemat Doily",
         img: "img/butterfly.jpg",
         price: 45,
@@ -2824,10 +2746,10 @@ export const storeProducts = [
         type: "Doilies"
     },
     {
-        id: 92,
+        id: 86,
         title: "Furniture Runner Doilies",
         img: "img/longrunner.jpg",
-        price: 0,
+        price: 60,
         info:"Beautiful furniture runner doilies to protect your furniture from dust and scratches. Please send Tobita an email regarding prices. The price ranges from $25.00 to $75.00 depending on the size. Using the same motif style, these runners can be made in multiples of 5 inches or 6 inches.",
         credits: "",
         color: false,
@@ -2837,7 +2759,7 @@ export const storeProducts = [
         type: "Doilies"
     },
     {
-        id: 93,
+        id: 87,
         title: "Star Doily",
         img: "img/doily4.jpg",
         price: 35,
@@ -2850,7 +2772,7 @@ export const storeProducts = [
         type: "Doilies"
     },
     {
-        id: 94,
+        id: 88,
         title: "Fashion Doll Furniture - no pillows",
         img: "img/barbiefurniture.jpg",
         price: 45,
@@ -2863,7 +2785,7 @@ export const storeProducts = [
         type: "Fashion Doll"
     },
     {
-        id: 95,
+        id: 89,
         title: "Fashion Doll Furniture - with pillows",
         img: "img/barbiefurniture.jpg",
         price: 50,
@@ -2876,7 +2798,7 @@ export const storeProducts = [
         type: "Fashion Doll"
     },
     {
-        id: 96,
+        id: 90,
         title: "Fashion Doll Bedroom Set",
         img: "img/bedroomset.jpg",
         price: 100,
@@ -2889,7 +2811,7 @@ export const storeProducts = [
         type: "Fashion Doll"
     },
     {
-        id: 97,
+        id: 91,
         title: "Fashion Doll Sundress",
         img: "img/fdsundress.jpg",
         price: 25,
@@ -2902,7 +2824,7 @@ export const storeProducts = [
         type: "Fashion Doll"
     },
     {
-        id: 98,
+        id: 92,
         title: "Fashion Doll Dress",
         img: "img/fdcasual.jpg",
         price: 35,
@@ -2915,7 +2837,7 @@ export const storeProducts = [
         type: "Fashion Doll"
     },
     {
-        id: 99,
+        id: 93,
         title: "Fashion Doll Gown",
         img: "img/bluegowndoll.jpg",
         price: 45,
@@ -2928,7 +2850,7 @@ export const storeProducts = [
         type: "Fashion Doll"
     },
     {
-        id: 100,
+        id: 94,
         title: "Crochet Heart Picture Frames",
         img: "img/heartframes.jpg",
         price: 35,
@@ -2941,7 +2863,7 @@ export const storeProducts = [
         type: "Home Accessories"
     },
     {
-        id: 101,
+        id: 95,
         title: "Mama's Washcloths - Set of 9",
         img: "img/washcloths.jpg",
         price: 55,
@@ -2954,7 +2876,7 @@ export const storeProducts = [
         type: "Home Accessories"
     },
     {
-        id: 102,
+        id: 96,
         title: "Mama's Striped Washcloths - set of 3",
         img: "img/washcloths2.jpg",
         price: 25,
@@ -2967,7 +2889,7 @@ export const storeProducts = [
         type: "Home Accessories"
     },
     {
-        id: 103,
+        id: 97,
         title: "Tablet Cover",
         img: "img/ipadcover.jpg",
         price: 20,
@@ -2980,7 +2902,7 @@ export const storeProducts = [
         type: "Home Accessories"
     },
     {
-        id: 104,
+        id: 98,
         title: "Daisy Flower Bookmarks",
         img: "img/flowerbookmarks.jpg",
         price: 10,
@@ -2993,10 +2915,10 @@ export const storeProducts = [
         type: "Home Accessories"
     },
     {
-        id: 105,
+        id: 99,
         title: "Flower Edge Table Topper",
         img: "img/tabletopper.jpg",
-        price: 75,
+        price: 95,
         info:"Beautiful flower edged table topper to proudly display your table top ornaments. The flowers will vary depending on availability. Specify white or ecru color.",
         credits: "",
         color: true,
@@ -3006,7 +2928,7 @@ export const storeProducts = [
         type: "Home Accessories"
     },
     {
-        id: 106,
+        id: 100,
         title: "Bathroom Set",
         img: "img/bathroomset.jpg",
         price: 50,
@@ -3019,7 +2941,7 @@ export const storeProducts = [
         type: "Home Accessories"
     },
     {
-        id: 107,
+        id: 101,
         title: "Remote Control Holder - Two Pockets",
         img: "img/twopocketremote.jpg",
         price: 25,
@@ -3032,7 +2954,7 @@ export const storeProducts = [
         type: "Home Accessories"
     },
     {
-        id: 108,
+        id: 102,
         title: "Remote Control Holder - Three Pockets",
         img: "img/remoteholder.jpg",
         price: 30,
@@ -3045,7 +2967,7 @@ export const storeProducts = [
         type: "Home Accessories"
     },
     {
-        id: 109,
+        id: 103,
         title: "Curtain Tiebacks - Pair",
         img: "img/tieback.jpg",
         price: 15,
@@ -3058,7 +2980,7 @@ export const storeProducts = [
         type: "Home Accessories"
     },
     {
-        id: 110,
+        id: 104,
         title: "Valance",
         img: "img/valance2.jpg",
         price: 95,
@@ -3071,7 +2993,7 @@ export const storeProducts = [
         type: "Home Accessories"
     },
     {
-        id: 111,
+        id: 105,
         title: "Napkin Rings - Set of 8",
         img: "img/napkholders.jpg",
         price: 30,
@@ -3084,7 +3006,7 @@ export const storeProducts = [
         type: "Home Accessories"
     },
     {
-        id: 112,
+        id: 106,
         title: "Tissue Roll Cover",
         img: "img/trollcover1.jpg",
         price: 20,
@@ -3097,7 +3019,7 @@ export const storeProducts = [
         type: "Home Accessories"
     },
     {
-        id: 113,
+        id: 107,
         title: "Facial Tissue Box Cover",
         img: "img/tboxcover1.jpg",
         price: 20,
@@ -3110,7 +3032,7 @@ export const storeProducts = [
         type: "Home Accessories"
     },
     {
-        id: 114,
+        id: 108,
         title: "Oval Rug",
         img: "img/rug.jpg",
         price: 35,
@@ -3123,7 +3045,7 @@ export const storeProducts = [
         type: "Home Accessories"
     },
     {
-        id: 115,
+        id: 109,
         title: "Child's Ladybug Backpack",
         img: "img/ladybugbackpack.jpg",
         price: 65,
@@ -3136,7 +3058,7 @@ export const storeProducts = [
         type: "Kids Stuff"
     },
     {
-        id: 116,
+        id: 110,
         title: "Hello Kitty Doll",
         img: "img/hellokitty.jpg",
         price: 40,
@@ -3149,7 +3071,7 @@ export const storeProducts = [
         type: "Kids Stuff"
     },
     {
-        id: 117,
+        id: 111,
         title: "Tutu Cute Ballet Bag",
         img: "img/tutuballetbag.jpg",
         price: 70,
@@ -3162,7 +3084,7 @@ export const storeProducts = [
         type: "Kids Stuff"
     },
     {
-        id: 118,
+        id: 112,
         title: "Crochet Clown",
         img: "img/clown.jpg",
         price: 45,
@@ -3175,7 +3097,7 @@ export const storeProducts = [
         type: "Kids Stuff"
     },
     {
-        id: 119,
+        id: 113,
         title: "Miniature Bear",
         img: "img/minibear.jpg",
         price: 35,
@@ -3188,7 +3110,7 @@ export const storeProducts = [
         type: "Kids Stuff"
     },
     {
-        id: 120,
+        id: 114,
         title: "Bear with Dress",
         img: "img/dressbear1.jpg",
         price: 25,
@@ -3201,7 +3123,7 @@ export const storeProducts = [
         type: "Kids Stuff"
     },
     {
-        id: 121,
+        id: 115,
         title: "Bears",
         img: "img/bears.jpg",
         price: 18,
@@ -3214,7 +3136,7 @@ export const storeProducts = [
         type: "Kids Stuff"
     },
     {
-        id: 122,
+        id: 116,
         title: "Canadian Mountie Doll",
         img: "img/mountie.jpg",
         price: 40,
@@ -3227,7 +3149,7 @@ export const storeProducts = [
         type: "Kids Stuff"
     },
     {
-        id: 123,
+        id: 117,
         title: "Bear with Shorts",
         img: "img/boybear.jpg",
         price: 25,
@@ -3240,7 +3162,7 @@ export const storeProducts = [
         type: "Kids Stuff"
     },
     {
-        id: 124,
+        id: 118,
         title: "Stuffed Dolphin Toy",
         img: "img/dolfin.jpg",
         price: 20,
@@ -3253,7 +3175,7 @@ export const storeProducts = [
         type: "Kids Stuff"
     },
     {
-        id: 125,
+        id: 119,
         title: "Cone-shaped Air Freshener Doll Cover",
         img: "img/doll.jpg",
         price: 30,
@@ -3266,7 +3188,7 @@ export const storeProducts = [
         type: "Kids Stuff"
     },
     {
-        id: 126,
+        id: 120,
         title: "Crochet Hot Pad with Fabric Edging",
         img: "img/pthldr.jpg",
         price: 18,
@@ -3279,7 +3201,7 @@ export const storeProducts = [
         type: "Kitchen"
     },
     {
-        id: 127,
+        id: 121,
         title: "Frog Hot Pad",
         img: "img/froghotpad.jpg",
         price: 25,
@@ -3292,7 +3214,7 @@ export const storeProducts = [
         type: "Kitchen"
     },
     {
-        id: 128,
+        id: 122,
         title: "Frog Oven Mitt",
         img: "img/frogovenmitt.jpg",
         price: 25,
@@ -3305,7 +3227,7 @@ export const storeProducts = [
         type: "Kitchen"
     },
     {
-        id: 129,
+        id: 123,
         title: "Frog Towel Topper",
         img: "img/frogtoweltopper2.jpg",
         price: 30,
@@ -3318,7 +3240,7 @@ export const storeProducts = [
         type: "Kitchen"
     },
     {
-        id: 130,
+        id: 124,
         title: "Mens Crochet Sweater",
         img: "img/mensweater.jpg",
         price: 150,
@@ -3331,7 +3253,7 @@ export const storeProducts = [
         type: "Mens Wear"
     },
     {
-        id: 131,
+        id: 125,
         title: "Mens Crochet Tie",
         img: "img/tie.jpg",
         price: 30,
@@ -3344,7 +3266,7 @@ export const storeProducts = [
         type: "Mens Wear"
     },
     {
-        id: 132,
+        id: 126,
         title: "Patriotic Angel",
         img: "img/patangel.jpg",
         price: 45,
@@ -3357,7 +3279,7 @@ export const storeProducts = [
         type: "Patriotic"
     },
     {
-        id: 133,
+        id: 127,
         title: "Star Spangled Fashion Doll",
         img: "img/starspangleddoll.jpg",
         price: 25,
@@ -3370,7 +3292,7 @@ export const storeProducts = [
         type: "Patriotic"
     },
     {
-        id: 134,
+        id: 128,
         title: "Dark Green Fashion Doll Furniture Set",
         img: "img/darkgreenfurn.jpg",
         price: 35,
@@ -3383,11 +3305,11 @@ export const storeProducts = [
         type: "Web Specials"
     },
     {
-        id: 135,
+        id: 129,
         title: "Mens Crochet Ties",
         img: "img/mensties.jpg",
         price: 25,
-        info:"Beautiful hand crochet tie. ",
+        info:"Beautiful hand crochet tie. Price listed is for one tie.",
         credits: "These handmade crochet items listed are available for immediate sale and shipped out the next day upon receipt of payment. Once they are sold, the items will be replaced or removed from this page.",
         color: true,
         inCart: false,
